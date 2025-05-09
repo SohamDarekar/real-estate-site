@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swastik Platinum - Luxury Residences in Vikhroli (E), Mumbai</title>
+    
+    <!-- Preconnect to image hosts -->
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    <link rel="dns-prefetch" href="https://images.unsplash.com" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="description" content="Swastik Platinum - 22 storeys of elegance in Vikhroli East offering luxurious 1 & 2 BHK residences with premium amenities and stunning city views.">
+    <script>
+      // Redirect handling for SPA routing
+      (function() {
+        // Retrieve the URL the user was trying to access
+        var redirect = sessionStorage.redirect;
+        // Remove the redirect from sessionStorage
+        delete sessionStorage.redirect;
+        // If there was a redirect, replace the current URL with it
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
