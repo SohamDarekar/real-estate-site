@@ -1,5 +1,5 @@
 {
-  "name": "swastik-platinum",
+  "name": "swastik-platinum-api",
   "type": "web",
   "env": "node",
   "buildCommand": "npm install && npm run build",
@@ -13,6 +13,10 @@
     {
       "key": "PORT",
       "value": "10000"
+    },
+    {
+      "key": "MONGODB_URI",
+      "value": "mongodb+srv://soh4m:admin@realestatefullstacksite.ncuogvz.mongodb.net/?retryWrites=true&w=majority&appName=RealEstateFullStackSite"
     }
   ]
 }

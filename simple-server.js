@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // MongoDB connection - use Atlas in production, local in development
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/swastik-platinum';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://soh4m:admin@realestatefullstacksite.ncuogvz.mongodb.net/?retryWrites=true&w=majority&appName=RealEstateFullStackSite';
 
 // Connect to MongoDB
 mongoose.connect(MONGODB_URI)
